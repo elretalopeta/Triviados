@@ -14,6 +14,9 @@
 		C91008571BE913E400E1A5F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91008551BE913E400E1A5F3 /* LaunchScreen.storyboard */; };
 		C91008621BE913E400E1A5F3 /* trivia2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91008611BE913E400E1A5F3 /* trivia2Tests.swift */; };
 		C910086D1BE913E400E1A5F3 /* trivia2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910086C1BE913E400E1A5F3 /* trivia2UITests.swift */; };
+		C910087B1BE917FF00E1A5F3 /* preguntas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C910087A1BE917FF00E1A5F3 /* preguntas.swift */; settings = {ASSET_TAGS = (); }; };
+		C9A2F6091BF2590F0013B5A5 /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A2F6081BF2590F0013B5A5 /* WinnerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C9A2F60B1BF25DA50013B5A5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C9A2F60A1BF25DA50013B5A5 /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		C91008681BE913E400E1A5F3 /* trivia2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trivia2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C910086C1BE913E400E1A5F3 /* trivia2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia2UITests.swift; sourceTree = "<group>"; };
 		C910086E1BE913E400E1A5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C910087A1BE917FF00E1A5F3 /* preguntas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = preguntas.swift; sourceTree = "<group>"; };
+		C9A2F6081BF2590F0013B5A5 /* WinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinnerViewController.swift; sourceTree = "<group>"; };
+		C9A2F60A1BF25DA50013B5A5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 		C91008401BE913E400E1A5F3 = {
 			isa = PBXGroup;
 			children = (
+				C9A2F6081BF2590F0013B5A5 /* WinnerViewController.swift */,
+				C9A2F60A1BF25DA50013B5A5 /* Settings.bundle */,
 				C910084B1BE913E400E1A5F3 /* trivia2 */,
 				C91008601BE913E400E1A5F3 /* trivia2Tests */,
 				C910086B1BE913E400E1A5F3 /* trivia2UITests */,
@@ -100,6 +108,7 @@
 				C910084C1BE913E400E1A5F3 /* AppDelegate.swift */,
 				C910084E1BE913E400E1A5F3 /* ViewController.swift */,
 				C91008501BE913E400E1A5F3 /* Main.storyboard */,
+				C910087A1BE917FF00E1A5F3 /* preguntas.swift */,
 				C91008531BE913E400E1A5F3 /* Assets.xcassets */,
 				C91008551BE913E400E1A5F3 /* LaunchScreen.storyboard */,
 				C91008581BE913E400E1A5F3 /* Info.plist */,
@@ -228,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A2F60B1BF25DA50013B5A5 /* Settings.bundle in Resources */,
 				C91008571BE913E400E1A5F3 /* LaunchScreen.storyboard in Resources */,
 				C91008541BE913E400E1A5F3 /* Assets.xcassets in Resources */,
 				C91008521BE913E400E1A5F3 /* Main.storyboard in Resources */,
@@ -255,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C910087B1BE917FF00E1A5F3 /* preguntas.swift in Sources */,
 				C910084F1BE913E400E1A5F3 /* ViewController.swift in Sources */,
 				C910084D1BE913E400E1A5F3 /* AppDelegate.swift in Sources */,
+				C9A2F6091BF2590F0013B5A5 /* WinnerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +493,7 @@
 				C91008731BE913E400E1A5F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C91008741BE913E400E1A5F3 /* Build configuration list for PBXNativeTarget "trivia2Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +502,7 @@
 				C91008761BE913E400E1A5F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C91008771BE913E400E1A5F3 /* Build configuration list for PBXNativeTarget "trivia2UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +511,7 @@
 				C91008791BE913E400E1A5F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
